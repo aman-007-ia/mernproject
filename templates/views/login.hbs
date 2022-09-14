@@ -1,0 +1,61 @@
+<html lang="en">
+
+
+{{>header}}
+
+<body>
+    {{>navbar}}
+    <!-- my header hero part -->
+    <div class="header_hero">
+        <div class="container">
+
+            <div class="row">
+                <!-- left side text -->
+                <div class="col-lg-6 col-8 mx-auto">
+                    <div class="header_hero__text">
+
+                        <!-- right side images -->
+                        <div class="col-lg-6 col-8 mx-auto">
+                            <div class="header_hero__text">
+                                <form action="/login" method="POST" class="row g-4 mx-6">
+
+                                    <div class="row-auto">
+                                        <input type="email" class="form-control" placeholder="Email Id * " required
+                                            name="email" />
+                                    </div>
+                                    <div class="row-auto">
+                                        <input type="password" class="form-control" placeholder="Password * " required
+                                            name="password" />
+                                    </div>
+                                    <div class=" d-flex">
+
+                                        <button class="my_btn" type="submit " value="Register">logIn</button>
+
+                                    </div>
+                                    <label for="check" class="checkbox pull-left mt-3">
+                                        <input type="checkbox" id="check" value="remember-me">
+                                        Rememeber me
+                                    </label>
+                                    <a href="#" class="pull-left need-help">Need help?</a><span class="clearfix"></span>
+
+                                </form>
+                                <a href="/register" class="text-center new-account">Create an account</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- my header hero part ends -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js "
+                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa "
+                crossorigin="anonymous "></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js "
+                integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk "
+                crossorigin="anonymous "></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js "
+                integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK "
+                crossorigin="anonymous "></script>
+</body>
+
+</html>
